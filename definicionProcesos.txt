@@ -1,1 +1,11 @@
 Un proceso es "Una unidad de actividad que se caracteriza por la ejecución de una secuencia de instrucciones, un estado actual, y un conjunto de recursos del sistema asociados".
+
+El estado de un proceso es definido por la actividad corriente en que se encuentra.
+
+Los estados de un proceso:
+
+ -Nuevo (new): Cuando el proceso es creado.
+ -Ejecutando (running): El proceso tiene asignado un procesador y está ejecutando sus instrucciones.
+ -Bloqueando (waiting): El proceso está esperando por un evento (que se complete un pedido de E/S o una señal.
+ -Listo (ready): El proceso está listo para ejecutar, solo necesita del recurso del procesador.
+ -Finalizado (terminated): El proceso finalizó su ejecución.
